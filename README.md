@@ -1,7 +1,7 @@
 # Programming Resources
 
 Programming Resources is a flutter application where you can see a list of useful programming resources categorically sorted to make your developer's life easier.
-All the resources provided are free of cose resources available on the internet.
+All the resources provided are free of cost resources available on the internet.
 
 The app is available on google play store [here](https://play.google.com/store/apps/details?id=com.semicolon.programming_resources).
 
