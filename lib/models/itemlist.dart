@@ -60,6 +60,15 @@ final itemlist = {
         'http://opendatastructures.org/ods-java.pdf',
         'https://www.learnjavaonline.org'
       ]
+    },
+    'Dart': {
+      "links": ["https://dart.dev/guides", "https://dartpad.dev/"],
+      'items': ['1. Dart guide', '2. IDE'],
+      'subtitle': [
+        "- Dart guide for Flutter and programming",
+        "-Online IDE for dart"
+      ],
+      'label': ['Website', 'IDE'],
     }
   },
   'Web Development': {
@@ -165,8 +174,60 @@ final itemlist = {
         'https://flutter.dev/docs',
         'https://www.youtube.com/watch?v=fq4N0hgOWzU&list=PLOU2XLYxmsIJ7dsVN4iRuA7BT8XHzGtCr'
       ]
-    }
+    },
+    'Dart': {
+      "links": ["https://dart.dev/guides", "https://dartpad.dev/"],
+      'items': ['1. Dart guide', '2. IDE'],
+      'subtitle': [
+        "- Dart guide for Flutter and programming, -Online IDE for dart"
+      ],
+      'label': ['Website', 'IDE'],
+    },
+    'react native': {
+      'items': ['1. React Native Docs', '2. All in one react resource'],
+      'subtitle': [' - React Native', ' - React native resources'],
+      'label': ['Website', 'website'],
+      'links': [
+        'https://reactnative.dev/docs/getting-started',
+        'https://reactresources.com/'
+      ]
+    },
+    'swift': {
+      'items': ['1. swift Docs', '2. All in one swift resource'],
+      'subtitle': [' -Swift Ios development', ' - swift resources by Apple'],
+      'label': ['Documentation', 'website'],
+      'links': [
+        "https://swift.org/documentation/",
+        'https://developer.apple.com/swift/resources/'
+      ]
+    },
   },
+  'Machine Learning': {
+    "SciKit-learn": {
+      'items': [
+        '1. classification',
+        '2. Regression',
+        '3. Official Documentation'
+      ],
+      'subtitle': [' - ML classification', ' - Regression', '- All Docs'],
+      'label': ['Website', 'Website', 'Website'],
+      'links': [
+        'https://scikit-learn.org/stable/supervised_learning.html#supervised-learning',
+        'https://scikit-learn.org/stable/supervised_learning.html#supervised-learning',
+        'https://scikit-learn.org/stable/',
+      ]
+    },
+    'Tensor Flow': {
+      'items': ['tensorFlow Tutorial'],
+      'subtitle': [' ML Tensor FLow'],
+      'label': [
+        'Tutorial',
+      ],
+      'links': [
+        'https://www.tensorflow.org/tutorials',
+      ]
+    }
+  }
 };
 
 final github = {
