@@ -26,14 +26,16 @@ final itemlist = {
       'items': [
         '1. Py4e.com Tutorials',
         '2. Automate the boring stuff with Python ',
-        '3. Python 101'
+        '3. Python 101',
+        '4. Python Basics'
       ],
-      'subtitle': ['', '', '- Michael Driscoll'],
-      'label': ['Website', 'Book', 'Book'],
+      'subtitle': ['', '', '- Michael Driscoll', '- HackerEarth'],
+      'label': ['Website', 'Book', 'Book', 'Website'],
       'links': [
         'https://py4e.com',
         'https://automatetheboringstuff.com/2e/chapter0/',
-        'https://python101.pythonlibrary.org'
+        'https://python101.pythonlibrary.org',
+        'https://www.hackerearth.com/practice/python/getting-started/input-and-output/tutorial/'
       ]
     },
     'Java': {
@@ -49,7 +51,6 @@ final itemlist = {
         ' - Robert Sedgewick and Kevin Wayne',
         ' - Kevin Sahin',
         ' - Pet Morin',
-        ''
       ],
       'label': ['Website', 'Book', 'Book', 'Book', 'Website'],
       'links': [
@@ -70,7 +71,7 @@ final itemlist = {
       ],
       'subtitle': [
         '- w3schools.com',
-        ' - Mozilla Docs',
+        '- Mozilla Docs',
         '- tutorialspoint.com'
       ],
       'label': ['Website', 'Website', 'Book'],
@@ -102,18 +103,24 @@ final itemlist = {
       'items': [
         '1. w3 Schools Tutorial',
         '2. Freecodecamp JS Tutorials',
-        '3. Building Front-End Web Apps with Plain JavaScript'
+        '3. Building Front-End Web Apps with Plain JavaScript',
+        '4. 10 Days of Javascript',
+        '5. JavaScript Mozilla Docs'
       ],
       'subtitle': [
         ' - w3schools.com',
         ' - Freecodecamp certification',
-        ' - Gerd Wagner'
+        ' - Gerd Wagner',
+        ' - HackerRank',
+        ' - Mozilla Docs'
       ],
-      'label': ['Website', 'Website', 'Book'],
+      'label': ['Website', 'Website', 'Book', 'Website', 'Website'],
       'links': [
         'https://www.w3schools.com/js/default.asp',
         'https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/',
-        'https://web-engineering.info/JsFrontendApp-Book'
+        'https://web-engineering.info/JsFrontendApp-Book',
+        'https://www.hackerrank.com/domains/tutorials/10-days-of-javascript',
+        'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference'
       ]
     }
   },
@@ -164,11 +171,18 @@ final itemlist = {
 
 final github = {
   'Useful Github Repositories': {
-    'items': ['1. Free Programming Books', '2. Awesome CS Courses'],
-    'subtitle': [' - EbookFoundation', ' - prakhar1989'],
+    'items': [
+      '1. Free Programming Books', 
+      '2. Awesome CS Courses', 
+      '3. JavaScript Style Guide',
+      '4. CSS Style Guide'
+    ],
+    'subtitle': [' - EbookFoundation', ' - prakhar1989', ' - airbnb', ' - airbnb'],
     'links': [
       'https://github.com/EbookFoundation/free-programming-books',
-      'https://github.com/prakhar1989/awesome-courses'
+      'https://github.com/prakhar1989/awesome-courses',
+      'https://github.com/airbnb/javascript',
+      'https://github.com/airbnb/css'
     ]
   }
 };
