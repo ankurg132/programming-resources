@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:fancy_drawer/fancy_drawer.dart';
-import 'package:programming_resources/insidelanguages.dart';
+import './insidelanguages.dart';
 
 class Languages extends StatefulWidget {
   @override
@@ -10,7 +10,7 @@ class Languages extends StatefulWidget {
 class _MyHomePageState extends State<Languages>
     with SingleTickerProviderStateMixin {
   FancyDrawerController _controller;
-  final items = ['1. C / C++', '2. Python ', '3. Java', '4. Ruby']; 
+  final items = ['1. C / C++', '2. Python ', '3. Java', '4. Ruby'];
   @override
   void initState() {
     super.initState();
@@ -30,30 +30,37 @@ class _MyHomePageState extends State<Languages>
   @override
   Widget build(BuildContext context) {
     return FancyDrawerWrapper(
-        backgroundColor: Colors.white,
-        controller: _controller,
-        drawerItems: <Widget>[
-          TextButton(onPressed: () => {/*listClassClick(context)*/},//aboutusClick(context), 
-            child: Text('About Us',
+      backgroundColor: Colors.white,
+      controller: _controller,
+      drawerItems: <Widget>[
+        TextButton(
+            onPressed: () =>
+                {/*listClassClick(context)*/}, //aboutusClick(context),
+            child: Text(
+              'About Us',
               style: TextStyle(
-              fontSize: 18,
-              color: Colors.purple.shade700,
-              fontWeight: FontWeight.bold,
-            ),)
-          ),TextButton(onPressed: () => {},//contributeClick(context), 
-            child: Text('Contribute',
+                fontSize: 18,
+                color: Colors.purple.shade700,
+                fontWeight: FontWeight.bold,
+              ),
+            )),
+        TextButton(
+            onPressed: () => {}, //contributeClick(context),
+            child: Text(
+              'Contribute',
               style: TextStyle(
-              fontSize: 18,
-              color: Colors.purple.shade700,
-              fontWeight: FontWeight.bold,
-            ),))
-            ,
-        ],
-        child: Scaffold(
-          appBar: AppBar(
-            title: new Text('Programming Languages',style: TextStyle(color:Colors.white)),
-            backgroundColor: Colors.purple.shade700,
-            /*leading: IconButton(
+                fontSize: 18,
+                color: Colors.purple.shade700,
+                fontWeight: FontWeight.bold,
+              ),
+            )),
+      ],
+      child: Scaffold(
+        appBar: AppBar(
+          title: new Text('Programming Languages',
+              style: TextStyle(color: Colors.white)),
+          backgroundColor: Colors.purple.shade700,
+          /*leading: IconButton(
               icon: Icon(
                 Icons.menu,
                 color: Colors.white,
@@ -62,32 +69,31 @@ class _MyHomePageState extends State<Languages>
                 _controller.toggle();
               },
             ),*/
-          ),
-          body: ListView.builder(
-            itemCount: items.length,
-            itemBuilder: (context, index) {
-            return Card( //                           <-- Card
-              child: ListTile(
-                title: Text(items[index]),
-                onTap: () {
-                  if(index==0){
-                    Navigator.push(
+        ),
+        body: ListView.builder(
+          itemCount: items.length,
+          itemBuilder: (context, index) {
+            return Card(
+                //                           <-- Card
+                child: ListTile(
+              title: Text(items[index]),
+              onTap: () {
+                if (index == 0) {
+                  Navigator.push(
                     context,
                     MaterialPageRoute(builder: (context) => Cpp()),
                   );
-                  }
-                  else if(index==1){
-                    Navigator.push(
+                } else if (index == 1) {
+                  Navigator.push(
                     context,
                     MaterialPageRoute(builder: (context) => Python()),
                   );
-                  }
-                },
+                }
+              },
+            ));
+          },
         ),
-      );
-    },
-  ),
-        ),
-      );
+      ),
+    );
   }
 }
