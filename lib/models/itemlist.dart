@@ -64,7 +64,8 @@ final itemlist = {
       "links": ["https://dart.dev/guides", "https://dartpad.dev/"],
       'items': ['1. Dart guide', '2. IDE'],
       'subtitle': [
-        "- Dart guide for Flutter and programming, -Online IDE for dart"
+        "- Dart guide for Flutter and programming",
+        "-Online IDE for dart"
       ],
       'label': ['Website', 'IDE'],
     }
@@ -189,8 +190,8 @@ final itemlist = {
       'subtitle': [' -Swift Ios development', ' - swift resources by Apple'],
       'label': ['Documentation', 'website'],
       'links': [
-        "https://swift.org/documentation/"
-            'https://developer.apple.com/swift/resources/'
+        "https://swift.org/documentation/",
+        'https://developer.apple.com/swift/resources/'
       ]
     },
   },
@@ -201,8 +202,8 @@ final itemlist = {
         '2. Regression',
         '3. Official Documentation'
       ],
-      'subtitle': [' - ML classification', ' - Regression'],
-      'label': ['Website', 'Website'],
+      'subtitle': [' - ML classification', ' - Regression', '- All Docs'],
+      'label': ['Website', 'Website', 'Website'],
       'links': [
         'https://scikit-learn.org/stable/supervised_learning.html#supervised-learning',
         'https://scikit-learn.org/stable/supervised_learning.html#supervised-learning',
