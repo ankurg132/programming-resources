@@ -78,11 +78,7 @@ final itemlist = {
         '2. HTML Mozilla Docs',
         '3. TutorialsPoint'
       ],
-      'subtitle': [
-        '- w3schools.com',
-        '- Mozilla Docs',
-        '- tutorialspoint.com'
-      ],
+      'subtitle': ['- w3schools.com', '- Mozilla Docs', '- tutorialspoint.com'],
       'label': ['Website', 'Website', 'Book'],
       'links': [
         'https://www.w3schools.com/html/',
@@ -130,6 +126,32 @@ final itemlist = {
         'https://web-engineering.info/JsFrontendApp-Book',
         'https://www.hackerrank.com/domains/tutorials/10-days-of-javascript',
         'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference'
+      ]
+    },
+    'Django': {
+      'items': [
+        '1. Django docs',
+        '2. Freecodecamp Django tutorial by cfe',
+        '3. Django blod series',
+        '4. Django by example',
+      ],
+      'subtitle': [
+        ' - Official documentation',
+        ' - Freecodecamp certification',
+        ' - by Corey schafer',
+        ' - by Antonio mele',
+      ],
+      'label': [
+        'Website',
+        'Youtube',
+        'Youtube',
+        'Book',
+      ],
+      'links': [
+        'https://docs.djangoproject.com/en/3.2/',
+        'https://www.youtube.com/watch?v=F5mRW0jo-U4&ab_channel=freeCodeCamp.org',
+        'https://www.youtube.com/watch?v=UmljXZIypDc&list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p&ab_channel=CoreySchafer',
+        'https://www.packtpub.com/product/django-by-example/9781784391911',
       ]
     }
   },
@@ -233,12 +255,17 @@ final itemlist = {
 final github = {
   'Useful Github Repositories': {
     'items': [
-      '1. Free Programming Books', 
-      '2. Awesome CS Courses', 
+      '1. Free Programming Books',
+      '2. Awesome CS Courses',
       '3. JavaScript Style Guide',
       '4. CSS Style Guide'
     ],
-    'subtitle': [' - EbookFoundation', ' - prakhar1989', ' - airbnb', ' - airbnb'],
+    'subtitle': [
+      ' - EbookFoundation',
+      ' - prakhar1989',
+      ' - airbnb',
+      ' - airbnb'
+    ],
     'links': [
       'https://github.com/EbookFoundation/free-programming-books',
       'https://github.com/prakhar1989/awesome-courses',
