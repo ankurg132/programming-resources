@@ -62,15 +62,30 @@ final itemlist = {
       ]
     },
     'Dart': {
-      "links": ["https://dart.dev/guides", "https://dartpad.dev/","https://www.raywenderlich.com/4482580-dart-2-cheat-sheet-and-quick-reference-2019","https://dart.dev/codelabs/dart-cheatsheet"],
-      'items': ['1. Dart guide', '2. IDE','3. Dart CheatSheet','4. Dart CheatSheet Codelab'],
+      "links": [
+        "https://dart.dev/guides",
+        "https://dartpad.dev/",
+        "https://www.raywenderlich.com/4482580-dart-2-cheat-sheet-and-quick-reference-2019",
+        "https://dart.dev/codelabs/dart-cheatsheet"
+      ],
+      'items': [
+        '1. Dart guide',
+        '2. IDE',
+        '3. Dart CheatSheet',
+        '4. Dart CheatSheet Codelab'
+      ],
       'subtitle': [
         "- Dart guide for Flutter and programming",
         "-Online IDE for dart",
         "- a cheatsheet for dart language",
         "- a codelab for Dartlang cheatsheet",
       ],
-      'label': ['Website', 'IDE','Article','Codelab',],
+      'label': [
+        'Website',
+        'IDE',
+        'Article',
+        'Codelab',
+      ],
     }
   },
   'Web Development': {
@@ -191,12 +206,21 @@ final itemlist = {
       ]
     },
     'Flutter': {
-      'items': ['1. Flutter Docs', '2. Google Developers Flutter playlist'],
-      'subtitle': [' - Flutter', ' - Google Developers Youtube'],
-      'label': ['Website', 'Videos'],
+      'items': [
+        '1. Flutter Docs',
+        '2. Google Developers Flutter playlist',
+        '3. Flutter examples'
+      ],
+      'subtitle': [
+        ' - Flutter',
+        ' - Google Developers Youtube',
+        'By Mtechviral'
+      ],
+      'label': ['Website', 'Videos', 'Git repository'],
       'links': [
         'https://flutter.dev/docs',
-        'https://www.youtube.com/watch?v=fq4N0hgOWzU&list=PLOU2XLYxmsIJ7dsVN4iRuA7BT8XHzGtCr'
+        'https://www.youtube.com/watch?v=fq4N0hgOWzU&list=PLOU2XLYxmsIJ7dsVN4iRuA7BT8XHzGtCr',
+        'https://github.com/iampawan/FlutterExampleApps'
       ]
     },
     'Dart': {
@@ -260,19 +284,22 @@ final github = {
       '1. Free Programming Books',
       '2. Awesome CS Courses',
       '3. JavaScript Style Guide',
-      '4. CSS Style Guide'
+      '4. CSS Style Guide',
+      '5. Build your own X'
     ],
     'subtitle': [
       ' - EbookFoundation',
       ' - prakhar1989',
       ' - airbnb',
-      ' - airbnb'
+      ' - airbnb',
+      ' - Github repo'
     ],
     'links': [
       'https://github.com/EbookFoundation/free-programming-books',
       'https://github.com/prakhar1989/awesome-courses',
       'https://github.com/airbnb/javascript',
-      'https://github.com/airbnb/css'
+      'https://github.com/airbnb/css',
+      'https://github.com/danistefanovic/build-your-own-x'
     ]
   }
 };
