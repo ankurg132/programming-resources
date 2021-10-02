@@ -62,13 +62,15 @@ final itemlist = {
       ]
     },
     'Dart': {
-      "links": ["https://dart.dev/guides", "https://dartpad.dev/"],
-      'items': ['1. Dart guide', '2. IDE'],
+      "links": ["https://dart.dev/guides", "https://dartpad.dev/","https://www.raywenderlich.com/4482580-dart-2-cheat-sheet-and-quick-reference-2019","https://dart.dev/codelabs/dart-cheatsheet"],
+      'items': ['1. Dart guide', '2. IDE','3. Dart CheatSheet','4. Dart CheatSheet Codelab'],
       'subtitle': [
         "- Dart guide for Flutter and programming",
-        "-Online IDE for dart"
+        "-Online IDE for dart",
+        "- a cheatsheet for dart language",
+        "- a codelab for Dartlang cheatsheet",
       ],
-      'label': ['Website', 'IDE'],
+      'label': ['Website', 'IDE','Article','Codelab',],
     }
   },
   'Web Development': {
