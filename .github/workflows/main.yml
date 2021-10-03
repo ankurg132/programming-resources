@@ -48,4 +48,3 @@ jobs:
       with:
         name: release-apk
         path: build/app/outputs/apk/release/app-release.apk
-© 2021 GitHub, Inc.
