@@ -7,6 +7,7 @@ The app is available on google play store [here](https://play.google.com/store/a
 
 ## Contributing
 
+
 I would like to encourage anyone to contribute to this project's development. Please raise an issue if you encounter any issue or for requesting any changes in the app. 
 If you're getting started with flutter, please check the resources below in the Getting Started section. Also see the active issues.
 
